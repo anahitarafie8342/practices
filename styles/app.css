@@ -1,0 +1,28 @@
+.circle{
+   width: 80px;
+   height: 80px;
+  
+   background-color: #FF8A65;
+   margin: 50px auto;
+   animation-name: circle-animation ;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in; 
+}
+
+@keyframes circle-animation {
+
+   0% { 
+       transform:rotate(0deg);
+
+   }
+
+   100% {
+
+      transform:rotate(180deg);
+     
+
+
+   }
+
+}
